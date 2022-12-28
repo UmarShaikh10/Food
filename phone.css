@@ -1,0 +1,87 @@
+/* Navigation */
+
+#navbar{
+    flex-direction: column;
+
+}
+
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0 4px;
+    padding-bottom: 8px;
+
+    
+}
+
+
+
+
+/* Home */
+#home{
+    height: 425px;
+   padding: 3px 13px;
+
+    
+}
+#home::before{
+    height: 525px;
+}
+
+#home p{
+    font-size: 20px;
+
+}
+#home h1{
+    font-size: 30px;
+
+}
+
+/* Services */
+#services{
+    display: flex;
+    flex-direction: column;
+
+}
+
+#services .box{
+ 
+    padding: 5px ;
+    margin: 3px 0;
+    
+  
+    
+
+}
+
+
+#services .box img{
+    height: 116px;
+
+   
+}
+/* Cients */
+#clients{
+    flex-wrap: wrap;
+
+}
+#clients img{
+
+    padding: 2px 8px;
+    
+
+}
+
+
+
+/* Contact */
+
+/* Utility Classes */
+
+.h-primary{
+    font-size: 26px;
+}
+
+.btn{
+    font-size: 13px;
+    padding: 4px 8px;
+}
